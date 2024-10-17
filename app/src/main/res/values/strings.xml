@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mediplus</string>
+    <string name="text_logo_app_con_nombre">Logo app con nombre</string>
+    <string name="text_logo_de_la_app">Logo de la app</string>
+    <string name="text_introduce_tu_correo">Introduce tu correo</string>
+    <string name="text_introduce_tu_contrasena">Introduce tu contraseña</string>
+    <string name="text_iniciar_sesion">Iniciar Sesión</string>
+    <string name="hint_introduce_tu_nombre">Introduce tu nombre</string>
+    <string name="hint_introduce_tu_apellido">Introduce tu apellido</string>
+    <string name="hint_introduce_tu_telefono">Introduce tu telefono</string>
+    <string name="hint_introduce_tu_contrasena">Introduce tu contraseña</string>
+    <string name="text_crear_cuenta">Crear cuenta</string>
+    <string name="text_inicio_de_sesion">Inicio de sesión</string>
+    <string name="label_correo">Correo</string>
+    <string name="label_contrasena">Contraseña</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="text_crear_recordatorio_de_medicamento">Crear recordatorio de medicamento</string>
+    <string name="text_gestiona_tus_recordatorios_m_s_importantes">Gestiona tus recordatorios más importantes.</string>
+    <string name="text_gestiona_tus_anotaciones">Gestiona tus anotaciones.</string>
+    <string name="text_crear_recordatorio_de_hidratación">Crear recordatorio de hidratación</string>
+    <string name="text_crear_recordatorio_de_citas_medicas">Crear recordatorio de citas medicas</string>
+    <string name="text_revisar_mis_anotaciones">Revisar mis anotaciones</string>
+    <string name="text_gestiona_tus_examenes">Gestiona tus examenes.</string>
+    <string name="text_historial_de_examenes">Historial de examenes</string>
+    <string name="hint_introduce_tu_correo">Introduce tu correo</string>
+    <string name="text_registrate">Registrate</string>
+    <string name="text_no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="text_boton_volver">Boton volver</string>
+    <string name="text_label_nombres">Nombres</string>
+    <string name="text_label_apellidos">Apellidos</string>
+    <string name="text_label_telefono">Telefono</string>
+    <string name="text_label_correo">Correo</string>
+    <string name="text_label_contrasena">Contraseña</string>
+    <string name="text_ya_tienes_cuenta">¿Ya tienes cuenta?</string>
+    <string name="text_inicia_sesion">Inicia sesión</string>
+    <string name="text_imagen_de_logo">Imagen de logo</string>
+</resources>

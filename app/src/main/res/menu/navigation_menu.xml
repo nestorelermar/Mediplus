@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_medications"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Toma de medicamentos"/>
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Alerta de abastecimiento"/>
+        <item
+            android:id="@+id/nav_appointments"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Citas médicas"/>
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Gestión de salud"/>
+        <item
+            android:id="@+id/nav_lifestyle"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Vida saludable"/>
+    </group>
+
+    <group android:title="Historial">
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Exámenes"/>
+        <item
+            android:id="@+id/nav_histories"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Historiales"/>
+    </group>
+
+    <group android:title="Notas">
+        <item
+            android:id="@+id/nav_medication_notes"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Notas de medicamentos"/>
+        <item
+            android:id="@+id/nav_general_notes"
+            android:icon="@drawable/icono_despliegue"
+            android:title="Otras notas generales"/>
+    </group>
+</menu>
