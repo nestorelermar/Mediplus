@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class ModuloCitas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_modulo_citas)
+        setContentView(R.layout.activity_modulo_citas2)
 
     }
 }
