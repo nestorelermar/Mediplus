@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FEFEFE"
-    tools:context=".MainActivity">
+    tools:context=".Citas">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/top_layout"
@@ -143,11 +143,11 @@
         style="@style/Style_button_float"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="609dp">
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView16"

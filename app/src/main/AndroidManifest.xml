@@ -38,6 +38,24 @@
             android:name=".Registrarse"
             android:exported="false" /> <!-- Configurar SplashActivity como la actividad principal -->
         <activity
+            android:name=".CitaEliminada"
+            android:exported="false"/>
+        <activity
+            android:name=".Citas"
+            android:exported="false"/>
+        <activity
+            android:name=".CitaCreada"
+            android:exported="false"/>
+        <activity
+            android:name=".CitaEditada"
+            android:exported="false"/>
+        <activity
+            android:name=".CitasFormulario"
+            android:exported="false"/>
+        <activity
+            android:name=".ListarCitas"
+            android:exported="false"/>
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         val recordatorioCitas = findViewById<CardView>(R.id.recordatorioCitas)
 
         recordatorioCitas.setOnClickListener {
-            val modulo_citas = Intent(this, ModuloCitas::class.java)
+            val modulo_citas = Intent(this, Citas::class.java)
             startActivity(modulo_citas)
         }
 
