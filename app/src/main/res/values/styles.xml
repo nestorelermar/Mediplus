@@ -13,6 +13,12 @@
         <item name="android:layout_width">350dp</item>
         <item name="android:layout_height">48dp</item>
     </style>
+    <style name="Style_end">
+        <item name="android:background">@drawable/border</item>
+        <item name="android:textColor">#767272</item>
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">113dp</item>
+    </style>
     <style name="Style_input_medium">
         <item name="android:background">@drawable/border</item>
         <item name="android:textColor">#767272</item>
@@ -123,5 +129,20 @@
         <!-- Ajusta el tamaño del texto, íconos, etc. -->
         <item name="android:padding">8dp</item> <!-- Reduce el padding -->
         <item name="android:minWidth">80dp</item> <!-- Ajusta el ancho mínimo -->
+    </style>
+    <style name="datePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">#0D1B99</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+
+        <!-- Personaliza el botón "Cancelar" -->
+        <item name="android:buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+    <style name="PositiveButtonStyle" parent="android:Widget.Material.Button.Borderless.Colored">
+        <item name="android:textColor">#0D1B99</item> <!-- Color del texto del botón OK -->
+    </style>
+
+    <!-- Estilo para el botón "Cancelar" -->
+    <style name="NegativeButtonStyle" parent="android:Widget.Material.Button.Borderless.Colored">
+        <item name="android:textColor">#0D1B99</item> <!-- Color del texto del botón Cancelar -->
     </style>
 </resources>
